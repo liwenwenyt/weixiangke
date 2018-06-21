@@ -191,13 +191,13 @@ section{
 /* .sec_4 */
 .sec_4{
 	     width: 100%;
-	    display: flex;
-	    flex-direction: column;
+	    /* display: flex;
+	    flex-direction: column; */
 	    /* overflow-x: scroll; */
 	.sec_4_head{
-		flex: 1;
-		overflow-x: hidden;
-		overflow-y: hidden;
+		/* flex: 1; */
+		overflow-x: scroll;
+		/* overflow-y: hidden; */
 		width: 118%;
          height: 0.39rem;
          border-bottom: 1px solid #ebefec;
@@ -207,9 +207,9 @@ section{
          ul{
          	height: 0.39rem;
          	width: 100%;
-            overflow-y: hidden; 
-         	overflow-x: scroll;
-         	white-space: nowrap;
+            /* overflow-y: hidden; 
+                     	overflow-x: scroll;
+                     	white-space: nowrap; */
          	float: left;
          	display: inline;
          	li{
@@ -284,6 +284,7 @@ section{
 }
 footer{
 	height: 0.48rem;
+	background: #fffbff;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
