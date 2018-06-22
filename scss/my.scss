@@ -1,0 +1,108 @@
+@chatset"utf-8";
+body,div,p,ul,dl,ol,dt,dd,li,h1,h2,h3,h4,h5,h6,form,fieldset,table,tr,td,input,textarea,figure{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑";
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	cursor:pointer;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: none;
+	display: block;
+}
+html,body{
+	font-size:26.67vw;
+	height: 100%;
+}
+body{
+	display: flex;
+	flex-direction: column;
+    background: #fffbff;
+}
+/*  header  */
+header{
+	height: 0.48rem;
+	background: #fff;
+	border-bottom: 2px solid #fdfbfd;
+	display:-webkit-flex;
+	-webkit-align-items:center;
+	p{
+		font-size: 0.16rem;
+		margin-right: 1.33rem;
+		color: black;
+		margin-left: 1.7rem;
+	}
+	a{
+		font-size: 0.14rem;
+		color: #ff3458;
+	}
+}
+/* section */
+section{
+	flex: 1;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	.sec_one{
+		height: 2.34rem;
+		border-bottom: 2px solid #eae6ea;
+		display: -webkit-flex;
+		-webkit-flex-direction: column;
+		.sec_one_cont{
+		     display: -webkit-flex;
+		     -webkit-justify-content: space-between;
+		     -webkit-align-items: center;
+		     border-bottom: 2px solid #eae6ea;
+		     height: 0.67rem;
+		     width: 3.6rem;
+		     margin-left: 0.16rem;
+	          span{
+	          	font-size: 0.12rem;
+	          	color: #000;
+	          }
+	          p{
+		        display: -webkit-flex;
+		        -webkit-align-items: center;
+	          	img{
+	          		width: 0.58rem;
+	          		height: 0.58rem;
+	          		margin-right: 0.1rem;
+	          	}
+	          	i{
+	          		font-size: 0.14rem;
+	          		margin-right: 0.15rem;
+	          	}
+	          }
+		}
+		.sec_one_cont:nth-child(2){
+		     height: 0.54rem;
+            p{
+            	font-size: 0.12rem;
+            	color: #6f6d6f;
+            	margin-right: 0.15rem;
+            }
+		}
+		.sec_one_cont:nth-child(3){
+			height: 0.54rem;
+		}
+		.sec_one_cont:nth-child(4){
+			height: 0.54rem;
+			border-bottom: none;
+			p{
+				span{
+					font-size: 0.12rem;
+					color: #6f6d6f;
+					margin-right: 0.06rem;
+				}
+			}
+		}
+	}
+}  
