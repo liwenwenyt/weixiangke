@@ -71,31 +71,33 @@ section{
 		width: 0.86rem;
 		background: #fffbff;
 		ul{
-			li{
+			.list{
 				width: 0.84rem;
 				height: 0.47rem;
 				border: 1px solid #faf6fa;
 				display: flex;
 				justify-content: center;
 				align-items: center;
+				
 				span{
 					font-size: 0.12rem;
-					color: #000;
+				    color: #000;
 
 				}
 			}
-			li:first-child{
+			.sec{
 				border: none;
 				border-left: 3px solid #ff4465;
 				background: #fff;
+				color:red;
 			}
+			
 		}
 	}
 	.nav_right{
          flex: 1;
          overflow-x: hidden;
          overflow-y: scroll;
-        /*  padding-left: 0.06rem; */
          .sub{
          	width: 100%;
          	display: flex;
@@ -136,6 +138,14 @@ section{
          		}
          	}
          }
+         .hide{
+       	    display:none;
+         }
+       .hide:nth-child(1){
+            display: block;
+            display: -webkit-flex;
+        }
+
 	}
 }
 /* footer */
